@@ -27,7 +27,7 @@ JOIN track t ON ct.track_id = t.id
 JOIN album a ON t.album_id  = a.id
 JOIN album_singer sa ON a.id = sa.album_id
 JOIN singer s ON sa.singer_id = s.id
-WHERE s.singer_name LIKE 'Oxxxymiron%';
+WHERE s.singer_name LIKE '%Oxxxymiron%';
 
 
 
